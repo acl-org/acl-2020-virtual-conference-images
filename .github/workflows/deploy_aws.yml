@@ -12,4 +12,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Deploy to AWS S3
-      run: make deploy-aws
+      run: make deploy
